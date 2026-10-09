@@ -1,0 +1,10 @@
+sonuc_1 = 10 + 2 * 3  # Çarpma önce yapıldığı için 10 + 6 sonucunu hesaplar.
+sonuc_2 = (10 + 2) * 3  # Parantez önce yapıldığı için 12 × 3 sonucunu hesaplar.
+sonuc_3 = 100 - 20 / 2  # Bölme önce yapıldığı için 100 - 10 sonucunu hesaplar.
+sonuc_4 = (100 - 20) / 2  # Parantez önce yapıldığı için 80 / 2 sonucunu hesaplar.
+sonuc_5 = 2 * 3 ** 2  # Üs alma önce yapıldığı için 2 × 9 sonucunu hesaplar.
+print(f"10 + 2 * 3 = {sonuc_1}")  # Birinci işlem önceliği örneğini gösterir.
+print(f"(10 + 2) * 3 = {sonuc_2}")  # Parantezli örneğin sonucunu gösterir.
+print(f"100 - 20 / 2 = {sonuc_3}")  # Bölmenin önce yapıldığı örneği gösterir.
+print(f"(100 - 20) / 2 = {sonuc_4}")  # Parantezli bölme örneğinin sonucunu gösterir.
+print(f"2 * 3 ** 2 = {sonuc_5}")  # Üs alma önceliğinin sonucunu gösterir.
